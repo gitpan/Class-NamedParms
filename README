@@ -14,6 +14,7 @@ CHANGES
   1.02 1999.06.18 Performance tweeks
 
   1.03 1999.06.21 Minor doc fixes. Removal of 'use attrs' for portability.
+  1.04 1999.10.08 Bug fix to 'all_parms' method. 
 
 To install:
 

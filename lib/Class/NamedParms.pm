@@ -6,7 +6,7 @@ use strict;
 use Carp;
 use vars qw($VERSION);
 
-$VERSION = '1.03';
+$VERSION = '1.04';
 
 =head1 NAME
 
@@ -51,6 +51,8 @@ a new accessor for every object parameter.
  1.02 1999.06.18 - Performance tweak to 'get' method.
 
  1.03 1999.06.21 - Minor docs tweaks. Removal of 'use attrs' for portability
+
+ 1.04 1999.10.08 - Bug fix to 'all_parms' method 
 
 =head2 Initialization
 
@@ -355,7 +357,7 @@ Example:
 
 sub all_parms {
 	my ($self) = shift;
-	my (@parm_list) = $self->list_parms;
+	my (@parm_list) = $self->list_initialized_parms;
 	my ($all_p) = {};
 	foreach my $parm (@parm_list) {
 		$all_p->{$parm} = $self->get($parm);
@@ -377,7 +379,7 @@ Benjamin Franz
 
 =head1 VERSION
 
-   1.03
+   1.04
 
 =head1 TODO             
 

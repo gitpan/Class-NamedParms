@@ -59,6 +59,8 @@ Example:
                    tests to 100% code coverage. Refactored code to make
                    it more inheritance friendly. Updated documentation.
 
+ 1.06 2005.09.20 - Fixed bad pod coverage build test.
+
 =head1 METHODS
 
 =over 4
@@ -218,7 +220,7 @@ Benjamin Franz <snowhare@nihongo.org>
 
 =head1 VERSION
 
-1.05 2005.09.19
+1.06 2005.09.20
 
 =head1 TODO
 

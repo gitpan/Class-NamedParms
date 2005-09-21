@@ -3,7 +3,7 @@ package Class::NamedParms;
 use strict;
 
 BEGIN {
-    $Class::NamedParms::VERSION = '1.05';
+    $Class::NamedParms::VERSION = '1.06';
 }
 
 ######################################################################

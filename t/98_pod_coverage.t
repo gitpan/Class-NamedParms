@@ -19,4 +19,4 @@ if ($@ or (not defined $Test::Pod::Coverage::VERSION) or ($Test::Pod::Coverage::
 }
 
 Test::More::plan (tests => 1);
-Test::Pod::Coverage::pod_coverage_ok( 'Class::ParmList', { also_private => ['DEBUG'] });
+Test::Pod::Coverage::pod_coverage_ok( 'Class::NamedParms', { also_private => ['DEBUG'] });

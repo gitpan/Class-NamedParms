@@ -1,6 +1,6 @@
 ---
 name: Class-NamedParms
-version: 1.05
+version: 1.06
 author:
   - Benjamin Franz <snowhare@nihongo.org>
 abstract: A lightweight base class for checked get/set property accessors
@@ -10,5 +10,5 @@ requires:
 provides:
   Class::NamedParms:
     file: lib/Class/NamedParms.pm
-    version: 1.05
+    version: 1.06
 generated_by: Module::Build version 0.261

@@ -15,3 +15,4 @@
                    tests to 100% code coverage. Refactored code to make
                    it more inheritance friendly. Updated documentation.
 
+ 1.06 2005.09.20 - Fixed bad pod coverage build test.
